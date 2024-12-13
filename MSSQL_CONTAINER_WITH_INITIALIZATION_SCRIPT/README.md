@@ -1,0 +1,1 @@
+This is a docker container that I made to create a MSSQL server with an initialization script. For this container to work we need a backup file (.bak) with the database and a .env file that specifies the environmental variables needed for the docker compose file.

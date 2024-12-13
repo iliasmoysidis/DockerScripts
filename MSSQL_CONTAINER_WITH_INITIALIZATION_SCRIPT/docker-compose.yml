@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+    mssql-server:
+        container_name: mssql-server
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            ACCEPT_EULA: "Y"
+            MSSQL_SA_PASSWORD: "${MSSQL_PASSWORD}"
+            Email: "${Email}"
+            XUsername: "${XUsername}"
+        ports:
+            - 1433:1433
+        volumes:
+            - mssql_data_volume:/var/opt/mssql # create a volume for the server
+        networks:
+            - myCerth
+
+volumes:
+    mssql_data_volume:
+    certh_backend_volume:
+
+networks:
+    myCerth:
+        external: true
+        name: myCerth

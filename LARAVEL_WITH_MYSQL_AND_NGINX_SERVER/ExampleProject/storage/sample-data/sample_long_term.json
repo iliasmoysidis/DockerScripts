@@ -1,0 +1,2064 @@
+{
+    "@context": {
+        "datacellar": "http://datacellar.org/"
+    },
+    "@type": "datacellar:Dataset",
+    "datacellar:name": "Non Intrusive Load Monitoring Data",
+    "datacellar:description": "Non Intrusive Load Monitoring dataset containing aggregate energy consumption with frequency of 6 seconds",
+    "datacellar:datasetSelfDescription": {
+        "@type": "datacellar:DatasetDescription",
+        "datacellar:datasetMetadataTypes": [
+            "datacellar:GeoLocalizedDataset"
+        ],
+        "datacellar:datasetFields": [
+            {
+                "@type": "datacellar:DatasetField",
+                "datacellar:datasetFieldID": 1,
+                "datacellar:fieldName": "outdoorTemperature",
+                "datacellar:description": "Temperature readings",
+                "datacellar:type": {
+                    "@type": "datacellar:FieldType",
+                    "datacellar:unitText": "Celsius",
+                    "datacellar:averagable": true,
+                    "datacellar:summable": false,
+                    "datacellar:anonymizable": false
+                }
+            },
+            {
+                "@type": "datacellar:DatasetField",
+                "datacellar:datasetFieldID": 2,
+                "datacellar:fieldName": "consumedPower",
+                "datacellar:description": "Power consumption readings",
+                "datacellar:type": {
+                    "@type": "datacellar:FieldType",
+                    "datacellar:unitText": "Watts",
+                    "datacellar:averagable": true,
+                    "datacellar:summable": false,
+                    "datacellar:anonymizable": false
+                }
+            }
+        ]
+    },
+	
+"datacellar:timeSeriesList": [
+
+        {
+            "@type": "datacellar:TimeSeries",
+            "datacellar:datasetFieldID": 1,
+            "datacellar:startDate": "Datetime",
+            "datacellar:endDate": "2006-12-25 07:00:00",
+            "datacellar:granularity": "1 hour",
+            "datacellar:dataPoints": [
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 01:00:00",
+                    "datacellar:value": -8.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 02:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 03:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 04:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 05:00:00",
+                    "datacellar:value": -9.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 06:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 07:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 08:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 09:00:00",
+                    "datacellar:value": -8.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 10:00:00",
+                    "datacellar:value": -17.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 11:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 12:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 13:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 14:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 15:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 16:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 17:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 18:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 19:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 20:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 21:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 22:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 23:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 00:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 01:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 02:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 03:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 04:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 05:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 06:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 07:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 08:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 09:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 10:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 11:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 12:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 13:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 14:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 15:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 16:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 17:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 18:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 19:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 20:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 21:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 22:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 23:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 00:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 01:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 02:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 03:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 04:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 05:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 06:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 07:00:00",
+                    "datacellar:value": 0.555
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 08:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 09:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 10:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 11:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 12:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 13:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 14:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 15:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 16:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 17:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 18:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 19:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 20:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 21:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 22:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 23:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 00:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 01:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 02:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 03:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 04:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 05:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 06:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 07:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 08:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 09:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 10:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 11:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 12:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 13:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 14:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 15:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 16:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 17:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 18:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 19:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 20:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 21:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 22:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 23:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 00:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 01:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 02:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 03:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 04:00:00",
+                    "datacellar:value": 0.555
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 05:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 06:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 07:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 08:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 09:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 10:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 11:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 12:00:00",
+                    "datacellar:value": 5.555
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 13:00:00",
+                    "datacellar:value": 6.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 14:00:00",
+                    "datacellar:value": 7.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 15:00:00",
+                    "datacellar:value": 7.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 16:00:00",
+                    "datacellar:value": 7.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 17:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 18:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 19:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 20:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 21:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 22:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 23:00:00",
+                    "datacellar:value": 5.555
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 00:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 01:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 02:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 03:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 04:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 05:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 06:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 07:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 08:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 09:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 10:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 11:00:00",
+                    "datacellar:value": 4.445
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 12:00:00",
+                    "datacellar:value": 5.555
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 13:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 14:00:00",
+                    "datacellar:value": 6.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 15:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 16:00:00",
+                    "datacellar:value": 7.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 17:00:00",
+                    "datacellar:value": 6.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 18:00:00",
+                    "datacellar:value": 5.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 19:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 20:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 21:00:00",
+                    "datacellar:value": 3.89
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 22:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 23:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 00:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 01:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 02:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 03:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 04:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 05:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 06:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 07:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 08:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 09:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 10:00:00",
+                    "datacellar:value": 0.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 11:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 12:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 13:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 14:00:00",
+                    "datacellar:value": 3.335
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 15:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 16:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 17:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 18:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 19:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 20:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 21:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 22:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 23:00:00",
+                    "datacellar:value": 1.11
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 00:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 01:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 02:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 03:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 04:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 05:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 06:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 07:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 08:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 09:00:00",
+                    "datacellar:value": 1.665
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 10:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 11:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 12:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 13:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 14:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 15:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 16:00:00",
+                    "datacellar:value": 2.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 17:00:00",
+                    "datacellar:value": 2.5
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 18:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 19:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 20:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 21:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 22:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 23:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 00:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 01:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 02:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 03:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 04:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 05:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 06:00:00",
+                    "datacellar:value": 2.22
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 07:00:00",
+                    "datacellar:value": 1.11
+                }
+            ]
+        },
+        {
+            "@type": "datacellar:TimeSeries",
+            "datacellar:datasetFieldID": 2,
+            "datacellar:startDate": "Datetime",
+            "datacellar:endDate": "2006-12-25 07:00:00",
+            "datacellar:granularity": "1 hour",
+            "datacellar:dataPoints": [
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 01:00:00",
+                    "datacellar:value": 200.964
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 02:00:00",
+                    "datacellar:value": 95.236
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 03:00:00",
+                    "datacellar:value": 99.732
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 04:00:00",
+                    "datacellar:value": 132.946
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 05:00:00",
+                    "datacellar:value": 119.804
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 06:00:00",
+                    "datacellar:value": 78.198
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 07:00:00",
+                    "datacellar:value": 97.201996
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 08:00:00",
+                    "datacellar:value": 113.434
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 09:00:00",
+                    "datacellar:value": 152.944
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 10:00:00",
+                    "datacellar:value": 217.734
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 11:00:00",
+                    "datacellar:value": 148.26
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 12:00:00",
+                    "datacellar:value": 114.951996
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 13:00:00",
+                    "datacellar:value": 99.646
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 14:00:00",
+                    "datacellar:value": 125.558
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 15:00:00",
+                    "datacellar:value": 179.124
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 16:00:00",
+                    "datacellar:value": 199.562
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 17:00:00",
+                    "datacellar:value": 204.406
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 18:00:00",
+                    "datacellar:value": 221.826
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 19:00:00",
+                    "datacellar:value": 174.504
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 20:00:00",
+                    "datacellar:value": 201.69
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 21:00:00",
+                    "datacellar:value": 182.446
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 22:00:00",
+                    "datacellar:value": 91.08
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-17 23:00:00",
+                    "datacellar:value": 26.264
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 00:00:00",
+                    "datacellar:value": 16.582
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 01:00:00",
+                    "datacellar:value": 18.798
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 02:00:00",
+                    "datacellar:value": 17.068
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 03:00:00",
+                    "datacellar:value": 18.596
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 04:00:00",
+                    "datacellar:value": 61.58
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 05:00:00",
+                    "datacellar:value": 17.61
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 06:00:00",
+                    "datacellar:value": 36.6
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 07:00:00",
+                    "datacellar:value": 147.026
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 08:00:00",
+                    "datacellar:value": 124.928
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 09:00:00",
+                    "datacellar:value": 97.76
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 10:00:00",
+                    "datacellar:value": 78.578
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 11:00:00",
+                    "datacellar:value": 93.716
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 12:00:00",
+                    "datacellar:value": 105.364
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 13:00:00",
+                    "datacellar:value": 100.924
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 14:00:00",
+                    "datacellar:value": 103.982
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 15:00:00",
+                    "datacellar:value": 107.058
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 16:00:00",
+                    "datacellar:value": 116.958
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 17:00:00",
+                    "datacellar:value": 129.294
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 18:00:00",
+                    "datacellar:value": 144.152
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 19:00:00",
+                    "datacellar:value": 156.87
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 20:00:00",
+                    "datacellar:value": 183.034
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 21:00:00",
+                    "datacellar:value": 130.184
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 22:00:00",
+                    "datacellar:value": 104.328
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-18 23:00:00",
+                    "datacellar:value": 92.836
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 00:00:00",
+                    "datacellar:value": 50.228
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 01:00:00",
+                    "datacellar:value": 21.182
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 02:00:00",
+                    "datacellar:value": 19.634
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 03:00:00",
+                    "datacellar:value": 18.498
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 04:00:00",
+                    "datacellar:value": 19.67
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 05:00:00",
+                    "datacellar:value": 18.4
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 06:00:00",
+                    "datacellar:value": 47.78
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 07:00:00",
+                    "datacellar:value": 107.138
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 08:00:00",
+                    "datacellar:value": 232.742
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 09:00:00",
+                    "datacellar:value": 97.066
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 10:00:00",
+                    "datacellar:value": 26.228
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 11:00:00",
+                    "datacellar:value": 139.298
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 12:00:00",
+                    "datacellar:value": 25.84
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 13:00:00",
+                    "datacellar:value": 18.028
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 14:00:00",
+                    "datacellar:value": 18.128
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 15:00:00",
+                    "datacellar:value": 25.282
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 16:00:00",
+                    "datacellar:value": 82.328
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 17:00:00",
+                    "datacellar:value": 126.69
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 18:00:00",
+                    "datacellar:value": 132.282
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 19:00:00",
+                    "datacellar:value": 110.526
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 20:00:00",
+                    "datacellar:value": 176.432
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 21:00:00",
+                    "datacellar:value": 86.572
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 22:00:00",
+                    "datacellar:value": 43.2
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-19 23:00:00",
+                    "datacellar:value": 23.022
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 00:00:00",
+                    "datacellar:value": 27.59
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 01:00:00",
+                    "datacellar:value": 15.52
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 02:00:00",
+                    "datacellar:value": 47.062
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 03:00:00",
+                    "datacellar:value": 18.602
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 04:00:00",
+                    "datacellar:value": 17.34
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 05:00:00",
+                    "datacellar:value": 15.762
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 06:00:00",
+                    "datacellar:value": 17.016
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 07:00:00",
+                    "datacellar:value": 91.598
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 08:00:00",
+                    "datacellar:value": 175.056
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 09:00:00",
+                    "datacellar:value": 83.132
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 10:00:00",
+                    "datacellar:value": 90.618
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 11:00:00",
+                    "datacellar:value": 173.544
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 12:00:00",
+                    "datacellar:value": 85.262
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 13:00:00",
+                    "datacellar:value": 85.704
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 14:00:00",
+                    "datacellar:value": 77.694
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 15:00:00",
+                    "datacellar:value": 16.868
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 16:00:00",
+                    "datacellar:value": 28.105999
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 17:00:00",
+                    "datacellar:value": 34.41
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 18:00:00",
+                    "datacellar:value": 170.21
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 19:00:00",
+                    "datacellar:value": 194.918
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 20:00:00",
+                    "datacellar:value": 214.528
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 21:00:00",
+                    "datacellar:value": 218.764
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 22:00:00",
+                    "datacellar:value": 183.538
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-20 23:00:00",
+                    "datacellar:value": 142.906
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 00:00:00",
+                    "datacellar:value": 92.152
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 01:00:00",
+                    "datacellar:value": 83.878
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 02:00:00",
+                    "datacellar:value": 76.494
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 03:00:00",
+                    "datacellar:value": 18.156
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 04:00:00",
+                    "datacellar:value": 14.804
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 05:00:00",
+                    "datacellar:value": 17.442
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 06:00:00",
+                    "datacellar:value": 17.74
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 07:00:00",
+                    "datacellar:value": 76.828
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 08:00:00",
+                    "datacellar:value": 93.782
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 09:00:00",
+                    "datacellar:value": 154.548
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 10:00:00",
+                    "datacellar:value": 106.062
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 11:00:00",
+                    "datacellar:value": 37.674
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 12:00:00",
+                    "datacellar:value": 49.148
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 13:00:00",
+                    "datacellar:value": 101.294
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 14:00:00",
+                    "datacellar:value": 61.434002
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 15:00:00",
+                    "datacellar:value": 18.444
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 16:00:00",
+                    "datacellar:value": 81.604
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 17:00:00",
+                    "datacellar:value": 105.158
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 18:00:00",
+                    "datacellar:value": 146.598
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 19:00:00",
+                    "datacellar:value": 131.828
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 20:00:00",
+                    "datacellar:value": 146.242
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 21:00:00",
+                    "datacellar:value": 58.936
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 22:00:00",
+                    "datacellar:value": 16.816
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-21 23:00:00",
+                    "datacellar:value": 16.226
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 00:00:00",
+                    "datacellar:value": 16.016
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 01:00:00",
+                    "datacellar:value": 16.32
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 02:00:00",
+                    "datacellar:value": 16.058
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 03:00:00",
+                    "datacellar:value": 16.432
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 04:00:00",
+                    "datacellar:value": 15.856
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 05:00:00",
+                    "datacellar:value": 48.41
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 06:00:00",
+                    "datacellar:value": 28.778
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 07:00:00",
+                    "datacellar:value": 103.392
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 08:00:00",
+                    "datacellar:value": 164.664
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 09:00:00",
+                    "datacellar:value": 113.778
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 10:00:00",
+                    "datacellar:value": 80.698
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 11:00:00",
+                    "datacellar:value": 75.154
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 12:00:00",
+                    "datacellar:value": 73.708
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 13:00:00",
+                    "datacellar:value": 40.314
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 14:00:00",
+                    "datacellar:value": 48.934
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 15:00:00",
+                    "datacellar:value": 87.098
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 16:00:00",
+                    "datacellar:value": 94.272
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 17:00:00",
+                    "datacellar:value": 89.808
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 18:00:00",
+                    "datacellar:value": 161.218
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 19:00:00",
+                    "datacellar:value": 236.29
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 20:00:00",
+                    "datacellar:value": 212.164
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 21:00:00",
+                    "datacellar:value": 272.92
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 22:00:00",
+                    "datacellar:value": 183.904
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-22 23:00:00",
+                    "datacellar:value": 145.152
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 00:00:00",
+                    "datacellar:value": 101.894
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 01:00:00",
+                    "datacellar:value": 103.368004
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 02:00:00",
+                    "datacellar:value": 102.046
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 03:00:00",
+                    "datacellar:value": 106.292
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 04:00:00",
+                    "datacellar:value": 113.496
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 05:00:00",
+                    "datacellar:value": 133.746
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 06:00:00",
+                    "datacellar:value": 98.962
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 07:00:00",
+                    "datacellar:value": 241.40201
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 08:00:00",
+                    "datacellar:value": 251.45
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 09:00:00",
+                    "datacellar:value": 194.784
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 10:00:00",
+                    "datacellar:value": 178.33
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 11:00:00",
+                    "datacellar:value": 189.54
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 12:00:00",
+                    "datacellar:value": 175.728
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 13:00:00",
+                    "datacellar:value": 204.378
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 14:00:00",
+                    "datacellar:value": 225.478
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 15:00:00",
+                    "datacellar:value": 242.946
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 16:00:00",
+                    "datacellar:value": 260.94598
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 17:00:00",
+                    "datacellar:value": 327.152
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 18:00:00",
+                    "datacellar:value": 232.76399
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 19:00:00",
+                    "datacellar:value": 247.06999
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 20:00:00",
+                    "datacellar:value": 250.884
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 21:00:00",
+                    "datacellar:value": 197.306
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 22:00:00",
+                    "datacellar:value": 259.676
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-23 23:00:00",
+                    "datacellar:value": 333.748
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 00:00:00",
+                    "datacellar:value": 241.68
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 01:00:00",
+                    "datacellar:value": 196.54199
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 02:00:00",
+                    "datacellar:value": 138.182
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 03:00:00",
+                    "datacellar:value": 96.406
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 04:00:00",
+                    "datacellar:value": 94.566
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 05:00:00",
+                    "datacellar:value": 97.914
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 06:00:00",
+                    "datacellar:value": 113.712
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 07:00:00",
+                    "datacellar:value": 88.584
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 08:00:00",
+                    "datacellar:value": 85.666
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 09:00:00",
+                    "datacellar:value": 163.54
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 10:00:00",
+                    "datacellar:value": 160.52
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 11:00:00",
+                    "datacellar:value": 125.576
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 12:00:00",
+                    "datacellar:value": 90.0
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 13:00:00",
+                    "datacellar:value": 194.396
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 14:00:00",
+                    "datacellar:value": 82.292
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 15:00:00",
+                    "datacellar:value": 185.81
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 16:00:00",
+                    "datacellar:value": 120.428
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 17:00:00",
+                    "datacellar:value": 101.19
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 18:00:00",
+                    "datacellar:value": 30.312
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 19:00:00",
+                    "datacellar:value": 27.242
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 20:00:00",
+                    "datacellar:value": 28.446
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 21:00:00",
+                    "datacellar:value": 29.042
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 22:00:00",
+                    "datacellar:value": 28.786
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-24 23:00:00",
+                    "datacellar:value": 29.18
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 00:00:00",
+                    "datacellar:value": 59.974
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 01:00:00",
+                    "datacellar:value": 72.406
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 02:00:00",
+                    "datacellar:value": 26.28
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 03:00:00",
+                    "datacellar:value": 35.398
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 04:00:00",
+                    "datacellar:value": 34.72
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 05:00:00",
+                    "datacellar:value": 37.206
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 06:00:00",
+                    "datacellar:value": 15.844
+                },
+                {
+                    "@type": "datacellar:DataPoint",
+                    "datacellar:timeStamp": "2006-12-25 07:00:00",
+                    "datacellar:value": 40.607998
+                }
+            ]
+        }
+    ],
+	
+	
+	"datacellar:datasetMetadataList": [
+        {
+            "@type": "datacellar:GeoLocalizedDataset",
+            "datacellar:latitude": 40.7128,
+            "datacellar:longitude": -74.006,
+            "datacellar:postalCode": "10001"
+        }
+    ]
+}

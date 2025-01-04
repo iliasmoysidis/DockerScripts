@@ -1,0 +1,16 @@
+version: "3.1"
+services:
+    mysql:
+        image: mysql:5.7.42
+        container_name: mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: 12345678
+        volumes:
+            - mysql_data:/var/lib/mysql
+            - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+            - ./disable_strict_mode.cnf:/etc/mysql/conf.d/disable_strict_mode.cnf
+        ports:
+            - 3306:3306
+
+volumes:
+    mysql_data:

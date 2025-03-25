@@ -1,0 +1,15 @@
+services:
+    backend-server:
+        container_name: server
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: development
+        ports:
+            - 8080:80
+        develop:
+            watch:
+                - action: rebuild
+                  path: .
+        environment:
+            ASPNETCORE_ENVIRONMENT: "Development"

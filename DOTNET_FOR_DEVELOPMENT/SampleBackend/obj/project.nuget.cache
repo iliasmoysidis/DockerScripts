@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EeB+31xmd7g4jd4BubxtFdD3G0w6UzYBXY+CDFYE/A0X0m/2pBa6gzpq9p6JebgmTkpLGyDN/HTRq+ZtYMGYmg==",
+  "dgSpecHash": "7bbI49qzkCaFgCUUjA8W0di3xu7/frqTYlByp/leZ++YV/gD2GWzwaUvfUBTCcTv6EGCqlr/7gReWZfQr/0kxA==",
   "success": true,
-  "projectFilePath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_WITH_MSSQL/SampleBackend/SampleBackend.csproj",
+  "projectFilePath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_FOR_DEVELOPMENT/SampleBackend/SampleBackend.csproj",
   "expectedPackageFiles": [
     "/home/ilias/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/ilias/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

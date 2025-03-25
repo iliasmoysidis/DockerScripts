@@ -426,11 +426,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_WITH_MSSQL/SampleBackend/SampleBackend.csproj",
+      "projectUniqueName": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_FOR_DEVELOPMENT/SampleBackend/SampleBackend.csproj",
       "projectName": "SampleBackend",
-      "projectPath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_WITH_MSSQL/SampleBackend/SampleBackend.csproj",
+      "projectPath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_FOR_DEVELOPMENT/SampleBackend/SampleBackend.csproj",
       "packagesPath": "/home/ilias/.nuget/packages/",
-      "outputPath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_WITH_MSSQL/SampleBackend/obj/",
+      "outputPath": "/home/ilias/VSCodeProjects/DockerScripts/DOTNET_FOR_DEVELOPMENT/SampleBackend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ilias/.nuget/NuGet/NuGet.Config"
